@@ -18,7 +18,7 @@ version="1.0" #mandatory
  # A display name for the mod
 displayName="Aperture Sciences" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
-updateJSONURL="http://myurl.me/" #optional
+updateJSONURL="https://raw.githubusercontent.com/bpteammc/Aperature-Sciences/1a4645a2cb4d624b58a7d35f5850e90f1fc5ce0f/update.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
 displayURL="http://bpteam.xyz/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display

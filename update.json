@@ -1,0 +1,10 @@
+{
+  "homepage": "N/A",
+  "<mcversion>": {
+    "1.0": "Nothing Yet :)",
+  },
+  "promos": {
+    "<mcversion>-latest": "1.0",
+    "<mcversion>-recommended": "1.0",
+  }
+}

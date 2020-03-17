@@ -10,5 +10,5 @@ import java.util.List;
 public class ModBlocks {
     public static final List <Block> BLOCKS = new ArrayList<Block>();
 
-    public static final Block TESTBLOCK = new Block(Block.Properties.create(Material.ROCK);
+    //public static final Block TESTBLOCK = new Block(Block.Properties.create(Material.ROCK);
 }

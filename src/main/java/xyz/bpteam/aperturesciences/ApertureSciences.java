@@ -3,6 +3,7 @@ package xyz.bpteam.aperturesciences;
 import net.minecraftforge.fml.common.Mod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import xyz.bpteam.aperturesciences.common.util.RegistryHandeler;
 
 import java.util.stream.Collectors;
 
@@ -16,5 +17,8 @@ public final class ApertureSciences
 
     public ApertureSciences() {
         LOGGER.debug("Hello from the other side");
+
+        RegistryHandeler.init();
     }
+
 }

@@ -5,7 +5,7 @@ import net.minecraft.item.ItemGroup;
 
 public class PortalbleBlock extends Block {
     public PortalbleBlock(Properties properties) {
-        super(Block.Properties().group(ItemGroup.BUILDING_BLOCKS));
+        super(properties);
 
     }
 }

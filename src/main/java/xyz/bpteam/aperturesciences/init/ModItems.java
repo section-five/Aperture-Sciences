@@ -1,5 +1,6 @@
 package xyz.bpteam.aperturesciences.init;
 
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -11,5 +12,6 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, ApertureSciences.MODID);
 
     public static final RegistryObject<Item> TESTITEM = ITEMS.register("testitem", ItemBase::new);
+    //public static final RegistryObject<BlockItem> PANEL_LIGHT_1 = ITEMS.register();
 
 }

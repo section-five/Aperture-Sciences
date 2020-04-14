@@ -1,4 +1,4 @@
-# Aperature Sciences ![](https://img.shields.io/badge/Minecraft-1.15.2-blue.svg) ![](https://img.shields.io/badge/Latest%20Version-0.1-blue.svg) ![](https://img.shields.io/badge/Mod%20Status-Imcomplete-red.svg) ![Discord](https://img.shields.io/discord/538796875311218721)
+# Aperature Sciences ![](https://img.shields.io/badge/Minecraft-1.15.2-blue.svg) ![](https://img.shields.io/badge/Latest%20Version-0.1-blue.svg) ![](https://img.shields.io/badge/Mod%20Status-Incomplete-red.svg) ![Discord](https://img.shields.io/discord/538796875311218721)
 
 Adds Portal to Minecraft.
 

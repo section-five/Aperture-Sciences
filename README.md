@@ -1,8 +1,7 @@
-# Aperature Sciences ![](https://img.shields.io/badge/Creator-UKMinecrafted-orange.svg) ![](https://img.shields.io/badge/Minecraft-1.15.2-blue.svg) ![](https://img.shields.io/badge/Owner-BPTeam-blue.svg) ![](https://img.shields.io/badge/Mod%20Status-WIP-red.svg) ![Discord](https://img.shields.io/discord/538796875311218721.svg?style=plastic)
+# Aperature Sciences ![](https://img.shields.io/badge/Minecraft-1.15.2-blue.svg) ![](https://img.shields.io/badge/Latest%20Version-0.1-blue.svg) ![](https://img.shields.io/badge/Mod%20Status-Imcomplete-red.svg) ![Discord](https://img.shields.io/discord/538796875311218721)
 
 Adds Portal to Minecraft.
 
-***We are currently looking for some more modelers and coders to join the team, check out [our website](https://bpteammc.github.io/pages/recrutement) for more info***
 ## Getting Started
 
 This is info about the mod!
@@ -14,7 +13,7 @@ The Latest Version of [Minecraft  Forge 1.15.2](https://www.minecraftforge.net)
 ### Installing
 **NOT OUT YET**
 
-Download the 1.15.2 version of the Mod from the source [Here](https://minecraft.curseforge.com/projects/...)
+Download the 1.15.2 version of the Mod from the source [Here]()
 
 Move the mod into the mod folder in your .minecraft folder
 
@@ -25,13 +24,11 @@ and click play and enjoy
 ## Authors
 
 * **[UKMinecrafted](https://GitHub.com/UKMinecrafted)** - *Mod Creator, Coder and Modeler*
-* **[Josia50](https://GitHub.com/Josia50)** - *BPTeam, Coder*
-* **[Ben1Ben1](https://GitHub.com/Ben1Ben1)** - *BPTeam, Modeler*
 * **[Berenvonbaggins](https://github.com/berenvonbaggins)** - *BPTeam, Modeler*
 
 ## Contributors
 
-* **AXL2/Exxl2**
+* None yet, be the first
 
 ## License
 
@@ -39,5 +36,5 @@ This project is licensed under the GNU Public Licence 3.0  License - see the [LI
 
 ## Contact
 You can contact us at the following below
-* bp@bpteam.xyz
+* support@bpteam.xyz
 * and on our [Discord](https://discord.gg/Zawfp6K), @UKMinecrafted

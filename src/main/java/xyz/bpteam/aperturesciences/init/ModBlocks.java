@@ -23,7 +23,7 @@ public class ModBlocks {
    public static void registerItemBlocks(final RegistryEvent.Register<Item> event) {
       final IForgeRegistry<Item> registry = event.getRegistry();
       BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {
-         registry.register(new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+         registry.register(new BlockItem(block, new Item.Properties().group(ModItemGroup.AS_BLOCKS)).setRegistryName(block.getRegistryName()));
       });
    }
 

@@ -1,24 +1,35 @@
 package xyz.bpteam.aperturesciences.init;
 
 
+import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.common.Mod;
+import xyz.bpteam.aperturesciences.common.blocks.BlockBase;
+import xyz.bpteam.aperturesciences.common.items.MItemBlock;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class ModItems {
-   public static final List<Item> ITEMS = new ArrayList<>();
+public class ModBlocks {
 
-   //resources
-   //public static final Item DURANIUM_INGOT = registerItem(new ItemBase(), "duranium_ingot").setGroup(ModItemGroups.MITREK_ITEMS);
+   public static final List<Block> BLOCKS = new ArrayList<>();
+   public static final Block LIGHT_PANEL_TOP = registerBlock(new BlockBase(Block.Properties.create(Material.IRON)), "light_panel_top").setGroup(ModItemGroups.AS_BLOCKS);
 
-   public static <T extends Item> T registerItem(T item, String name) {
-      item.setRegistryName(name);
-      ITEMS.add(item);
 
-      return item;
+
+   public static BlockBase registerBlock(BlockBase base, String name) {
+      base.setRegistryName(name);
+      BLOCKS.add(base);
+
+      MItemBlock itemBlock = (MItemBlock) new MItemBlock(base).setRegistryName(name);
+      base.setmItemBlock(itemBlock);
+      ModItems.ITEMS.add(itemBlock);
+
+      return base;
    }
 }
 

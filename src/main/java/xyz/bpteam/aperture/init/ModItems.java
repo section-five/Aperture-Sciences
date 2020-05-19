@@ -1,18 +1,11 @@
-package xyz.bpteam.aperturesciences.init;
+package xyz.bpteam.aperture.init;
 
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import xyz.bpteam.aperturesciences.ApertureSciences;
-import xyz.bpteam.aperturesciences.common.items.ItemPortalGun;
-import xyz.bpteam.aperturesciences.common.items.ItemPortalGunBase;
+import xyz.bpteam.aperture.items.ItemPortalGunBase;
 
 import java.util.ArrayList;
 import java.util.List;
-
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModItems {

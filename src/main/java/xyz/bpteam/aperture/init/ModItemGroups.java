@@ -1,4 +1,4 @@
-package xyz.bpteam.aperturesciences.init;
+package xyz.bpteam.aperture.init;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;

@@ -1,19 +1,17 @@
-package xyz.bpteam.aperturesciences.common.items;
+package xyz.bpteam.aperture.items;
 
-import net.minecraft.block.Block;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import xyz.bpteam.aperture.init.ModItemGroups;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MItemBlock extends BlockItem {
-
+public class ItemBase extends Item {
     public List<ItemGroup> groups;
 
-    public MItemBlock(Block blockIn) {
-        super(blockIn, new Item.Properties());
+    public ItemBase() {
+        super(new Properties().group(ModItemGroups.AS_PORTALS));
     }
 
     public Item setGroup(ItemGroup... groups) {
